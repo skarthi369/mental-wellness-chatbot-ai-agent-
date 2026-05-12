@@ -35,8 +35,8 @@ Mental health concerns are rising globally, yet access to professional support r
 ```mermaid
 flowchart TD
     A[User Input] --> B[Chatbot UI]
-    B --> C[Service Layer - OllamaService]
-    C --> D[Transformer LLM (Gemma4:e2b)]
+    B --> C[Service Layer: OllamaService]
+    C --> D[Transformer LLM Gemma4:e2b]
     D --> E[Emotion Engine]
     E --> F{Risk Assessment}
     F -->|Low/Medium| G[Persona Adaptation: Doctor/Friend Mode]
@@ -45,8 +45,9 @@ flowchart TD
     H --> I[Response Generator]
     I --> J[Chatbot UI Output]
     I --> K[Session Report Generator]
-    K --> L[PDF Service - jsPDF]
+    K --> L[PDF Service: jsPDF]
     L --> M[Downloadable Wellness Report]
+
 <img width="653" height="760" alt="image" src="https://github.com/user-attachments/assets/a41086f4-b819-4cac-aaaa-f187e98a3375" />
 <img width="1502" height="942" alt="image" src="https://github.com/user-attachments/assets/b9ff1a5d-9160-44ab-b260-21a6c345f857" />
 <img width="1472" height="880" alt="image" src="https://github.com/user-attachments/assets/2bfe9a04-0950-44c5-a1e4-f4f21c7a2b29" />
