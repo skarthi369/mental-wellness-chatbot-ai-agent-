@@ -1,41 +1,38 @@
-Final Year Project Report
-Design and Development of an Emotion‑Aware AI Chatbot for Personalized Mental Health Support
+# 🌿 MindfulChat – Emotion‑Aware AI Chatbot for Personalized Mental Health Support
 
- Abstract
-Mental health support systems often face challenges in accessibility, personalization, and scalability. This project introduces MindfulChat, an ethically designed, emotion‑aware AI chatbot that leverages Transformer‑based Large Language Models (LLMs) to provide real‑time therapeutic assistance. The system integrates sentiment analysis, dynamic persona adaptation, and proactive risk assessment to deliver personalized wellness guidance. With multilingual support and structured analytics, MindfulChat aims to democratize mental health resources while maintaining ethical safeguards.
+## 📖 Abstract
+Mental health support systems often face challenges in accessibility, personalization, and scalability. This project introduces **MindfulChat**, an ethically designed, emotion‑aware AI chatbot that leverages **Transformer‑based Large Language Models (LLMs)** to provide real‑time therapeutic assistance. The system integrates sentiment analysis, dynamic persona adaptation, and proactive risk assessment to deliver personalized wellness guidance. With multilingual support and structured analytics, MindfulChat aims to democratize mental health resources while maintaining ethical safeguards.
 
- Introduction
-Mental health concerns are rising globally, yet access to professional support remains limited. AI‑driven conversational agents can bridge this gap by offering immediate, empathetic, and context‑aware assistance. Unlike generic chatbots, MindfulChat is designed with therapeutic intent, combining natural language understanding with emotional intelligence.
+---
 
-Key objectives:
+## 🚀 Introduction
+Mental health concerns are rising globally, yet access to professional support remains limited. AI‑driven conversational agents can bridge this gap by offering immediate, empathetic, and context‑aware assistance. Unlike generic chatbots, MindfulChat is designed with **therapeutic intent**, combining natural language understanding with emotional intelligence.
 
-Provide real‑time emotional support through adaptive dialogue.
+**Key Objectives**
+- Provide **real‑time emotional support** through adaptive dialogue.  
+- Detect and categorize emotional states for **risk triaging**.  
+- Ensure inclusivity with **multilingual support** (English, Tamil, Hindi).  
+- Generate **structured wellness reports** for reflection and progress tracking.  
 
-Detect and categorize emotional states for risk triaging.
+---
 
-Ensure inclusivity with multilingual support (English, Tamil, Hindi).
+## 🧠 System Features
 
-Generate structured wellness reports for reflection and progress tracking.
+### Intelligent Core
+- **Transformer LLM Integration** – nuanced therapeutic dialogue.  
+- **Emotion Engine** – detects emotional states (e.g., Anxiety, Stress, Hope).  
+- **Risk Assessment** – heuristic triaging (Low, Medium, High).  
 
-🧠 System Features
-Intelligent Core
-Transformer LLM Integration: Advanced transformer‑based language models for nuanced therapeutic dialogue.
+### Therapeutic Toolkit
+- **Guided Somatics** – breathing exercises (e.g., 4‑4‑4‑2 Box Breathing).  
+- **Multilingual Inclusivity** – supports English, Tamil (தமிழ்), and Hindi (हिंदी).  
+- **Session Analytics** – JSON‑based wellness reports summarizing emotional trends.  
 
-Emotion Engine: Detects emotional states (e.g., Anxiety, Stress, Hope) and adapts responses dynamically.
+---
 
-Risk Assessment: Heuristic triaging to classify distress levels (Low, Medium, High).
+## 🏗️ System Architecture
 
-Therapeutic Toolkit
-Guided Somatics: Breathing exercises (e.g., 4‑4‑4‑2 Box Breathing).
-
-Multilingual Inclusivity: Supports English, Tamil (தமிழ்), and Hindi (हिंदी).
-
-Session Analytics: JSON‑based wellness reports summarizing emotional trends.
-
-🏗️ System Architecture
-Here’s the Mermaid diagram code you can embed in your README or project documentation:
-
-mermaid
+```mermaid
 flowchart TD
     A[User Input] --> B[Chatbot UI]
     B --> C[Service Layer - OllamaService]
@@ -50,26 +47,6 @@ flowchart TD
     I --> K[Session Report Generator]
     K --> L[PDF Service - jsPDF]
     L --> M[Downloadable Wellness Report]
-📂 README Additions
-Setup Instructions
-Install and run Ollama locally.
-
-Download model:
-
-bash
-ollama pull gemma4:e2b
-Add environment variables in .env:
-
-Code
-VITE_OLLAMA_API_URL=http://localhost:11434
-VITE_OLLAMA_MODEL=gemma4:e2b
-Run Project
-bash
-npm install
-npm run dev
-Example Conversation Flow
-Friend Mode: “Heyyy 🚀 glad you dropped in! How’s your vibe tonight?”
-
-Doctor Mode: “Let’s break this down step by step. Can you rate your stress from 1–10?”
-
-Crisis Trigger: “I hear your pain. Let’s breathe together: inhale 4, hold 4, exhale 6. Please reach out to someone you trust.”
+<img width="653" height="760" alt="image" src="https://github.com/user-attachments/assets/a41086f4-b819-4cac-aaaa-f187e98a3375" />
+<img width="1502" height="942" alt="image" src="https://github.com/user-attachments/assets/b9ff1a5d-9160-44ab-b260-21a6c345f857" />
+<img width="1472" height="880" alt="image" src="https://github.com/user-attachments/assets/2bfe9a04-0950-44c5-a1e4-f4f21c7a2b29" />
