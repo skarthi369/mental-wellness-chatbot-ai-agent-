@@ -113,7 +113,6 @@ At the end of each session, MindfulChat generates a structured analysis converte
 
 ## 🏆 Acknowledgements
 
-Developed as a **Final Year Project**:
 *"Design and Development of an Emotion‑Aware AI Chatbot for Personalized Mental Health Support"*
 
 ---
