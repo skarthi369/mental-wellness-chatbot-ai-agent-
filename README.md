@@ -10,7 +10,7 @@
 ---
 
 ## 📖 Abstract
-**MindfulChat** is an ethically designed, emotion-aware AI chatbot that leverages **Transformer-based Large Language Models (LLMs)** to provide real-time therapeutic assistance. The system integrates sentiment analysis, dynamic persona adaptation, and proactive risk assessment to deliver personalized wellness guidance. With multilingual support and structured analytics, MindfulChat aims to democratize mental health resources while maintaining strict privacy via local AI processing.
+**MindfulChat** is an ethically designed, emotion-aware AI chatbot that leverages **Transformer-based Large Language Models (LLMs) Gemma 4(gemma4:e2b)** to provide real-time therapeutic assistance. The system integrates sentiment analysis, dynamic persona adaptation, and proactive risk assessment to deliver personalized wellness guidance. With multilingual support and structured analytics, MindfulChat aims to democratize mental health resources while maintaining strict privacy via local AI processing.
 
 ## 🏗️ Architecture
 
