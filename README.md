@@ -18,7 +18,7 @@
 flowchart TD
     A[User Input] --> B[Chatbot UI]
     B --> C[OllamaService]
-    C --> D[Transformer LLM Gemma2:2b]
+    C --> D[Transformer LLM gemma4:e2b]
     D --> E[Emotion Engine]
     E --> F{Risk Assessment}
     F -->|Low/Medium| G[Doctor/Friend Persona]
@@ -54,7 +54,7 @@ flowchart TD
 1. Install and run **Ollama** locally from [ollama.com](https://ollama.com).
 2. Pull the required model:
    ```bash
-   ollama pull gemma2:2b
+   ollama pull gemma4:e2b
    ```
 
 ### 2. Application Setup
@@ -69,7 +69,7 @@ flowchart TD
    Create a `.env` file in the root directory:
    ```env
    VITE_OLLAMA_API_URL=http://localhost:11434
-   VITE_OLLAMA_MODEL=gemma2:2b
+   VITE_OLLAMA_MODEL=gemma4:e2b
    ```
 
 3. **Run Development Server**:
@@ -105,7 +105,7 @@ At the end of each session, MindfulChat generates a structured analysis converte
 - **Frontend**: Vite, React, TypeScript
 - **Styling**: Tailwind CSS, Shadcn/UI
 - **Animations**: Framer Motion, Lucide React
-- **AI Core**: Ollama (Gemma2), Custom Sentiment Engine
+- **AI Core**: Ollama (Gemma 4), Custom Sentiment Engine
 - **Reporting**: jsPDF, jsPDF-AutoTable
 - **State Management**: React Hooks
 
